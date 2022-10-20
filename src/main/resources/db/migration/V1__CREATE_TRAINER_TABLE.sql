@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS trainer (
+  id SERIAL PRIMARY KEY,
+  email VARCHAR(255) NOT NULL,
+  phone VARCHAR(10) NOT NULL,
+  first_name VARCHAR(255) NOT NULL,
+  last_name VARCHAR(255) NOT NULL,
+  trainer_number VARCHAR(14) NOT NULL
+);
